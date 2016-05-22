@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="colors">
+        <item>@android:color/white</item>
+        <item>@color/login_background</item>
+    </array>
+</resources>

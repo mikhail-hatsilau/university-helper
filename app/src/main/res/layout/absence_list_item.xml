@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_absence_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"/>
+
+    <EditText
+        android:id="@+id/absence_loose"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:padding="3dp"
+        android:background="@drawable/edit_text_subject"
+        android:inputType="number"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/absence_seek"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="3dp"
+        android:inputType="number"
+        android:background="@drawable/edit_text_subject"/>
+
+</LinearLayout>

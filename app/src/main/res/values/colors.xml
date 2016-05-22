@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="login_background">#007aff</color>
+    <color name="line_between_edits_login">#C0C0C0</color>
+    <color name="schedule_background">#e6e5e5</color>
+
+    <color name="schedule_header_color">#58a7ff</color>
+
+    <color name="loose_1">#FFCC66</color>
+    <color name="loose_2">#FF9933</color>
+    <color name="loose_3">#FF0000</color>
+
+    <color name="default_color_loose">@android:color/black</color>
+
+
+    <color name="text_view_reports_pressed">#aacefb</color>
+
+    <color name="swipe_strip_color1">#ffa400</color>
+    <color name="swipe_strip_color2">#51ec3b</color>
+    <color name="swipe_strip_color3">#FF0000</color>
+    <color name="swipe_strip_color4">#FFFF00</color>
+
+    <color name="search_users_empty_text_color">#CC333333</color>
+
+
+
+</resources>

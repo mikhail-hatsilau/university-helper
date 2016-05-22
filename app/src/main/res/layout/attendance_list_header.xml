@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/attendance_item_margin">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:textSize="@dimen/attendance_report_header_text_size"
+        android:textStyle="bold"
+        android:text="@string/student"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/attendance_report_header_text_size"
+        android:textStyle="bold"
+        android:text="@string/reason_good_for_absence"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/attendance_report_header_text_size"
+        android:textStyle="bold"
+        android:text="@string/reason_not_good_for_absence"/>
+
+</LinearLayout>

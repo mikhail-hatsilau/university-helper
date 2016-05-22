@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabStyle">@style/tabs_style</item>
+        <item name="android:actionBarWidgetTheme">@style/action_bar_widget</item>
+
+    </style>
+
+
+
+    <style name="action_bar_widget">
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/action_bar</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid</item>
+
+    </style>
+
+    <style name="tabs_style" parent="Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tabs</item>
+    </style>
+
+    <style name="login_edit_style">
+        <item name="android:background">@drawable/edit_style</item>
+    </style>
+
+    <style name="green_button">
+        <item name="android:background">@drawable/login_btn</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="yellow_button">
+        <item name="android:background">@drawable/website_btn</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+
+    <style name="schedule_item">
+        <item name="android:background">@drawable/item_schedule</item>
+    </style>
+
+    <style name="image_button_edit">
+        <item name="android:background">@drawable/image_btn_edit</item>
+    </style>
+
+    <style name="text_item_day">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/schedule_header_color</item>
+    </style>
+
+    <style name="schedule_edit">
+        <item name="android:background">@drawable/background_with_radius_corners</item>
+    </style>
+
+    <style name="university_list" parent="@android:style/Theme.Holo.Light.Dialog">
+
+    </style>
+
+</resources>

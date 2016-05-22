@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/admin_edit_user_margin"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/admin_edit_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/edit_text_padding"
+            android:background="@drawable/edit_text_subject"
+            android:hint="@string/user_name" />
+
+        <Spinner
+            android:id="@+id/admin_edit_user_groups_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/admin_edit_user_margin"></Spinner>
+
+        <EditText
+            android:id="@+id/admin_edit_user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_subject"
+            android:padding="@dimen/edit_text_padding"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="@dimen/admin_edit_user_margin"
+            android:hint="@string/email" />
+
+        <EditText
+            android:id="@+id/admin_edit_user_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_subject"
+            android:padding="@dimen/edit_text_padding"
+            android:layout_marginTop="@dimen/admin_edit_user_margin"
+            android:hint="@string/pass_edit" />
+
+        <CheckBox
+            android:id="@+id/admin_edit_user_is_master"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/group_master"
+            android:layout_marginTop="@dimen/admin_edit_user_margin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/admin_edit_user_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/yellow_button"
+            android:layout_marginRight="@dimen/admin_edit_user_margin"
+            android:text="@string/cancel"/>
+
+            <Button
+                android:id="@+id/admin_edit_user_save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/green_button"
+                android:text="@string/save"/>
+    </LinearLayout>
+
+</RelativeLayout>

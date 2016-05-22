@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UniversityHelper</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="login_edit">E-mail</string>
+    <string name="pass_edit">Password</string>
+    <string name="website_button">Website</string>
+    <string name="login_button">Login</string>
+    <string name="country">2014, Gomel, Belarus</string>
+    <string name="enter_login">Enter your e-mail</string>
+    <string name="enter_pass">Enter your password</string>
+    <string name="user_not_found">Wrong e-mail or password. Please correct it</string>
+
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string name="reason_good_for_absence">Good</string>
+    <string name="reason_not_good_for_absence">Bad</string>
+
+    <string-array name="months">
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+    </string-array>
+
+    <string name="month">Month:</string>
+
+
+
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+
+    <string name="group">Group</string>
+
+    <string name="no_connection">No connection!</string>
+
+    <string name="edit_person">Edit absence</string>
+    <string name="schedule_edit_label">Edit schedule</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+
+    <string name="wait">Wait</string>
+
+    <string name="wrong_name">Wrong name!</string>
+
+    <string name="user_was_not_save">User was not saved!</string>
+    <string name="user_was_not_deleted">User was not deleted!</string>
+    <string name="saved">Saved</string>
+    <string name="deleted">Deleted</string>
+
+    <string name="empty_absence">Absence can not be empty!</string>
+    <string name="absence_was_not_saved">Absence was not saved!</string>
+    <string name="status">status</string>
+    <string name="not_found">User not found</string>
+    <string name="universities">Universities:</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="group_name">Group name</string>
+
+    <string name="group_was_not_saved">Current group was not saved!</string>
+    <string name="empty_group_name">Group name can not be empty!</string>
+
+    <string name="user_name">User name</string>
+    <string name="group_master">Group master</string>
+
+    <string name="admin_add_user_empty_name">Write user name!</string>
+    <string name="admin_add_user_empty_email">Write user email!</string>
+    <string name="admin_add_user_empty_password">Write password!</string>
+
+    <string name="search_hint">Search</string>
+
+    <string name="attendance_report">Attendance report</string>
+    <string name="logs_report">Logs report</string>
+    <string name="empty_report">Report is empty</string>
+
+    <string name="student">Student</string>
+
+    <string name="wrong_absence">Incorrect absence!</string>
+    <string name="add_user">Add user</string>
+
+    <string name="correct_group">Group</string>
+
+    <string name="empty_subject_time">Write time!</string>
+    <string name="empty_subject_name">Write a name of a subject!</string>
+    <string name="empty_subject_location">Write location!</string>
+
+    <string name="radio_over_line">Over line</string>
+    <string name="radio_under_line">Under line</string>
+    <string name="radio_none">None</string>
+
+    <string name="logs_report_label">Logs report</string>
+    <string name="attendance_report_label">Attendance report</string>
+
+    <string name="text_search">Search</string>
+
+
+    <string-array name="admin">
+        <item>Users</item>
+        <item>Groups</item>
+        <item>Reports</item>
+    </string-array>
+
+    <string-array name="user">
+        <item>Schedule</item>
+        <item>Statistics</item>
+    </string-array>
+
+    <string-array name="master">
+        <item>Schedule</item>
+        <item>Statistics</item>
+        <item>Group</item>
+        <item>Absence</item>
+    </string-array>
+
+    <string name="days">Days</string>
+</resources>
